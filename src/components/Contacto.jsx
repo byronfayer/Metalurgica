@@ -29,12 +29,16 @@ export default function Contacto() {
             <li>
               <span className="contacto__label">WhatsApp</span>
               <a href={waHref} target="_blank" rel="noopener noreferrer">
-                {contacto.whatsapp}
+                {contacto.whatsappDisplay}
               </a>
             </li>
             <li>
               <span className="contacto__label">Teléfono</span>
               <span>{contacto.telefono}</span>
+            </li>
+            <li>
+              <span className="contacto__label">Email</span>
+              <a href={`mailto:${contacto.email}`}>{contacto.email}</a>
             </li>
             <li>
               <span className="contacto__label">Ubicación</span>

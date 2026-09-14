@@ -6,17 +6,20 @@
 
 export const empresa = {
   nombre: "Pablo Metalúrgica",
+  nombreLegal: "Herrería AM-MA",
   slogan: "Estructura, precisión y trabajo en cada pieza",
   descripcion:
-    "[COMPLETAR] Taller metalúrgico dedicado a la fabricación, soldadura y reparación de estructuras y piezas metálicas, con más de [COMPLETAR] años de trabajo en la zona.",
+    "Herrería a cargo de Pablo Mena, dedicada a la fabricación, soldadura y reparación de estructuras y piezas metálicas en Córdoba capital.",
 };
 
 export const contacto = {
-  whatsapp: "[COMPLETAR — ej: 5493511234567]",
+  whatsapp: "5493516838755",
+  whatsappDisplay: "351 683-8755",
   whatsappTexto: "Hola, quiero consultar sobre un trabajo metalúrgico",
-  telefono: "[COMPLETAR]",
-  direccion: "[COMPLETAR — dirección del taller]",
-  localidad: "[COMPLETAR — ciudad / provincia]",
+  telefono: "351 683-8755",
+  email: "menapablo37@gmail.com",
+  direccion: "Francisco de Arteaga 2407, Villa Adela",
+  localidad: "Córdoba Capital",
   horario: "[COMPLETAR — ej: Lun a Vie 8 a 18 hs]",
   instagram: "[COMPLETAR — @usuario]",
   facebook: "[COMPLETAR — /pagina]",
@@ -58,8 +61,8 @@ export const servicios = [
 export const sobreNosotros = {
   titulo: "Sobre Pablo",
   texto: [
-    "[COMPLETAR] Pablo se dedica al trabajo metalúrgico desde hace [COMPLETAR] años, formándose en taller y en obra.",
-    "[COMPLETAR] Cada trabajo se encara de forma personalizada, cuidando la terminación y cumpliendo los plazos acordados con el cliente.",
+    "Pablo Mena está al frente de Herrería AM-MA, dedicado al trabajo metalúrgico desde hace [COMPLETAR] años, formándose en taller y en obra.",
+    "Cada trabajo se encara de forma personalizada, cuidando la terminación y cumpliendo los plazos acordados con el cliente.",
   ],
 };
 
