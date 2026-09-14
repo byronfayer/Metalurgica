@@ -1,6 +1,6 @@
 // ============================================================
 // CONFIGURACIÓN DEL SITIO — PABLO METALÚRGICA
-// Todo lo marcado [COMPLETAR] es un placeholder provisorio.
+// Todo lo marcado es un placeholder provisorio.
 // Reemplazar con la información real del cliente.
 // ============================================================
 
@@ -20,9 +20,7 @@ export const contacto = {
   email: "menapablo37@gmail.com",
   direccion: "Francisco de Arteaga 2407, Villa Adela",
   localidad: "Córdoba Capital",
-  horario: "[COMPLETAR — ej: Lun a Vie 8 a 18 hs]",
-  instagram: "[COMPLETAR — @usuario]",
-  facebook: "[COMPLETAR — /pagina]",
+  horario: "Lunes a viernes de 8 a 18 hs. Sábados de 8 a 13 hs.",
 };
 
 export const servicios = [
@@ -30,44 +28,44 @@ export const servicios = [
     id: "soldadura",
     titulo: "Soldadura",
     descripcion:
-      " Soldadura de precisión en distintos procesos y materiales, para uniones firmes y terminaciones prolijas.",
+      "Soldadura de precisión en distintos procesos y materiales, para uniones firmes y terminaciones prolijas.",
   },
   {
     id: "estructuras",
     titulo: "Estructuras metálicas",
     descripcion:
-      " Diseño y fabricación de estructuras metálicas para obra, galpones, portones y proyectos industriales.",
+      "Diseño y fabricación de estructuras metálicas para obra, galpones, portones y proyectos industriales.",
   },
   {
     id: "medida",
     titulo: "Trabajos a medida",
     descripcion:
-      " Piezas y elementos fabricados a medida según el plano o la necesidad puntual de cada cliente.",
+      "Piezas y elementos fabricados a medida según el plano o la necesidad puntual de cada cliente.",
   },
   {
     id: "reparaciones",
     titulo: "Reparaciones",
     descripcion:
-      " Reparación de estructuras, maquinaria y elementos metálicos dañados o desgastados por el uso.",
+      "Reparación de estructuras, maquinaria y elementos metálicos dañados o desgastados por el uso.",
   },
   {
     id: "fabricacion",
     titulo: "Fabricación e instalación",
     descripcion:
-      " Fabricación en taller e instalación en obra, con seguimiento del trabajo de principio a fin.",
+      "Fabricación en taller e instalación en obra, con seguimiento del trabajo de principio a fin.",
   },
   {
     id: "portones",
     titulo: "Portones y cerramientos",
     descripcion:
-      " Portones corredizos y batientes, rejas y cerramientos perimetrales, fabricados a medida.",
+      "Portones corredizos y batientes, rejas y cerramientos perimetrales, fabricados a medida.",
   },
 ];
 
 export const sobreNosotros = {
   titulo: "Sobre Pablo",
   texto: [
-    "Pablo Mena está al frente de Herrería AM-MA, dedicado al trabajo metalúrgico desde hace [COMPLETAR] años, formándose en taller y en obra.",
+    "Pablo Mena está al frente de Herrería AM-MA, dedicado al trabajo metalúrgico desde hace años, formándose en taller y en obra.",
     "Cada trabajo se encara de forma personalizada, cuidando la terminación y cumpliendo los plazos acordados con el cliente.",
   ],
 };
@@ -91,12 +89,15 @@ export const porQueElegirnos = [
   },
 ];
 
-// Galería: reemplazar por fotos reales de trabajos cuando estén disponibles.
+// Galería: fotos reales de trabajos terminados provistas por el cliente.
 export const trabajos = [
-  { id: 1, titulo: "[Trabajo realizado — foto pendiente]" },
-  { id: 2, titulo: "[Trabajo realizado — foto pendiente]" },
-  { id: 3, titulo: "[Trabajo realizado — foto pendiente]" },
-  { id: 4, titulo: "[Trabajo realizado — foto pendiente]" },
-  { id: 5, titulo: "[Trabajo realizado — foto pendiente]" },
-  { id: 6, titulo: "[Trabajo realizado — foto pendiente]" },
+  { id: 1, imagen: "/trabajos/trabajo-1.jpg", titulo: "Silla de diseño en acero" },
+  { id: 2, imagen: "/trabajos/trabajo-2.jpg", titulo: "Soportes metálicos a medida" },
+  { id: 3, imagen: "/trabajos/trabajo-3.jpg", titulo: "Bases y patas metálicas" },
+  { id: 4, imagen: "/trabajos/trabajo-4.jpg", titulo: "Mobiliario metálico variado" },
+  { id: 5, imagen: "/trabajos/trabajo-5.jpg", titulo: "Cestos y canastos de alambre" },
+  { id: 6, imagen: "/trabajos/trabajo-6.jpg", titulo: "Carro con estantes de rejilla" },
+  { id: 7, imagen: "/trabajos/trabajo-7.jpg", titulo: "Mesas bajas con base trípode" },
+  { id: 8, imagen: "/trabajos/trabajo-8.jpg", titulo: "Estructuras de cama en acero inoxidable" },
+  { id: 9, imagen: "/trabajos/trabajo-9.jpg", titulo: "Detalle de terminación y soldadura" },
 ];

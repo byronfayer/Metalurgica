@@ -50,12 +50,6 @@ export default function Contacto() {
               <span className="contacto__label">Horario</span>
               <span>{contacto.horario}</span>
             </li>
-            <li>
-              <span className="contacto__label">Redes</span>
-              <span>
-                {contacto.instagram} · {contacto.facebook}
-              </span>
-            </li>
           </ul>
         </div>
 

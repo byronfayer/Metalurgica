@@ -7,15 +7,16 @@ export default function Trabajos() {
         <div className="section-head">
           <h2 className="section-head__title">Trabajos realizados</h2>
           <p className="section-head__sub">
-            Espacio reservado para fotos reales de proyectos terminados.
+            Piezas y estructuras fabricadas en el taller.
           </p>
         </div>
 
         <div className="trabajos__grid">
           {trabajos.map((t) => (
-            <div key={t.id} className="trabajo-tile">
-              <span className="trabajo-tile__label">{t.titulo}</span>
-            </div>
+            <figure key={t.id} className="trabajo-tile">
+              <img src={t.imagen} alt={t.titulo} loading="lazy" />
+              <figcaption className="trabajo-tile__caption">{t.titulo}</figcaption>
+            </figure>
           ))}
         </div>
       </div>

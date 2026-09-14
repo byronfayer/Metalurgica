@@ -14,11 +14,6 @@ export default function Footer() {
           <span>{contacto.email}</span>
           <span>{contacto.direccion}, {contacto.localidad}</span>
         </div>
-
-        <div className="footer__social">
-          <span>{contacto.instagram}</span>
-          <span>{contacto.facebook}</span>
-        </div>
       </div>
 
       <div className="wrap footer__bottom">
