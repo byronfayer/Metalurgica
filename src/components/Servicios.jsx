@@ -16,6 +16,9 @@ const ICONS = {
   fabricacion: (
     <path d="M3 21l3-3m0 0l6-6m-6 6l-3-3m9-3l6-6m0 0l3 3m-3-3l-3 3M6 12l6 6" />
   ),
+  portones: (
+    <path d="M3 21V6l4-3v18M3 6h4m6 15V6l4-3v18m-4-15h4M13 12h-2M17 12h-2M7 12H5M7 16H5M17 16h-2" />
+  ),
 };
 
 export default function Servicios() {

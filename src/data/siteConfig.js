@@ -5,8 +5,8 @@
 // ============================================================
 
 export const empresa = {
-  nombre: "Pablo Metalúrgica",
-  nombreLegal: "Herrería AM-MA",
+  nombre: "Herrería AM-MA",
+  propietario: "Pablo Mena",
   slogan: "Estructura, precisión y trabajo en cada pieza",
   descripcion:
     "Herrería a cargo de Pablo Mena, dedicada a la fabricación, soldadura y reparación de estructuras y piezas metálicas en Córdoba capital.",
@@ -30,31 +30,37 @@ export const servicios = [
     id: "soldadura",
     titulo: "Soldadura",
     descripcion:
-      "[COMPLETAR] Soldadura de precisión en distintos procesos y materiales, para uniones firmes y terminaciones prolijas.",
+      " Soldadura de precisión en distintos procesos y materiales, para uniones firmes y terminaciones prolijas.",
   },
   {
     id: "estructuras",
     titulo: "Estructuras metálicas",
     descripcion:
-      "[COMPLETAR] Diseño y fabricación de estructuras metálicas para obra, galpones, portones y proyectos industriales.",
+      " Diseño y fabricación de estructuras metálicas para obra, galpones, portones y proyectos industriales.",
   },
   {
     id: "medida",
     titulo: "Trabajos a medida",
     descripcion:
-      "[COMPLETAR] Piezas y elementos fabricados a medida según el plano o la necesidad puntual de cada cliente.",
+      " Piezas y elementos fabricados a medida según el plano o la necesidad puntual de cada cliente.",
   },
   {
     id: "reparaciones",
     titulo: "Reparaciones",
     descripcion:
-      "[COMPLETAR] Reparación de estructuras, maquinaria y elementos metálicos dañados o desgastados por el uso.",
+      " Reparación de estructuras, maquinaria y elementos metálicos dañados o desgastados por el uso.",
   },
   {
     id: "fabricacion",
     titulo: "Fabricación e instalación",
     descripcion:
-      "[COMPLETAR] Fabricación en taller e instalación en obra, con seguimiento del trabajo de principio a fin.",
+      " Fabricación en taller e instalación en obra, con seguimiento del trabajo de principio a fin.",
+  },
+  {
+    id: "portones",
+    titulo: "Portones y cerramientos",
+    descripcion:
+      " Portones corredizos y batientes, rejas y cerramientos perimetrales, fabricados a medida.",
   },
 ];
 

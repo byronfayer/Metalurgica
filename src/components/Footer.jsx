@@ -6,13 +6,7 @@ export default function Footer() {
       <div className="wrap footer__inner">
         <div className="footer__brand">
           <span className="navbar__mark" aria-hidden="true" />
-          <span>
-            {empresa.nombre}
-            <br />
-            <small style={{ fontFamily: "var(--font-body)", fontSize: 12, color: "var(--grey-light)" }}>
-              {empresa.nombreLegal}
-            </small>
-          </span>
+          {empresa.nombre}
         </div>
 
         <div className="footer__contact">
