@@ -17,7 +17,8 @@ export default function Footer() {
       </div>
 
       <div className="wrap footer__bottom">
-        <span>© {new Date().getFullYear()} {empresa.nombre}. Boceto de sitio — pendiente de aprobación.</span>
+        <span>© {new Date().getFullYear()} {empresa.nombre}.</span>
+        <span className="footer__credit">Sitio desarrollado por Byron Nie</span>
       </div>
     </footer>
   );
