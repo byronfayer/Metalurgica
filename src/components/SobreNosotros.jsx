@@ -5,8 +5,8 @@ export default function SobreNosotros() {
     <section id="nosotros" className="nosotros">
       <div className="wrap nosotros__grid">
         <div className="nosotros__visual" aria-hidden="true">
-          <div className="nosotros__frame">
-            <span className="nosotros__frame-label">Foto de Pablo / taller — pendiente</span>
+          <div className="nosotros__frame nosotros__frame--foto">
+            <img src="/nosotros/taller.jpg" alt="Taller de Herrería AM-MA" />
           </div>
         </div>
 
